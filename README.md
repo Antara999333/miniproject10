@@ -5,30 +5,19 @@ The following is the result of and sql query used to display the airlines in the
 [![CI](miniproject10pic.jpg.png)
 
 # STEPS 
-Begin by opening Codespaces and waiting for the environment setup to complete.
 
-Execute the Python script named "main.py."
+1. Begin by opening Codespaces and waiting for the environment setup to complete.
 
-Generate a Markdown file containing the output data and a summary of your PySpark analysis.
+2. Execute the Python script named "main.py."
 
-Format your code using the "make format" command.
+3. Generate a Markdown file containing the output data and a summary of your PySpark analysis.
 
-Perform code linting with the "make lint" command to ensure code quality.
+4. Format your code using the "make format" command.
 
-Run tests on your code using the "make test" command to check for correctness and functionality.
+5. Perform code linting with the "make lint" command to ensure code quality.
 
-Proceed with data processing:
+6. Run tests on your code using the "make test" command to check for correctness and functionality.
 
-a. Start by extracting the dataset using the "extract" step.
+7. Proceed with data processing
 
-b. Initialize a Spark session using the "start_spark" function.
-
-c. Load the dataset into the Spark session with the "load_data" function.
-
-d. Calculate and collect descriptive statistics on the dataset using the "describe" function.
-
-e. Query and analyze the dataset with SQL or DataFrame operations using the "query" function.
-
-f. Apply further data transformations to a sample dataset using the "example_transform" function.
-
-Conclude the PySpark project by ending the Spark session using the "end_spark" function.
+8. Conclude the PySpark project by ending the Spark session using the "end_spark" function.
